@@ -1,0 +1,139 @@
+
+/** HEADER **/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+    background-color: #599e4b;
+}
+
+
+.container {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: black;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+    text-decoration: none;
+    text-shadow: 1px 1px 1px orange;
+}
+
+#header-nav {
+    border: 0;
+    background-color: maroon;
+    color: black;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid darkblue;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+
+.nav-brand {
+    color: black;
+    font-size: 1.5em;
+}
+
+#nav-list {
+    color: white;
+}
+
+hr {
+    border-color: white;
+}
+
+.item {
+    color: #e4d61c;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.text-center a:hover,.text-center a:focus{
+    text-decoration:none;
+    text-shadow: 2px 2px 2px black;
+}
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+section {
+    border:	1px solid black;
+    background-color: #00FF99;
+    width: 100%;
+    height: auto;
+    font-family: Helvetica;
+    color: black;
+    position: relative;
+    overflow: auto;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #99ed7b;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px #18580b;
+}
+
+#chicken {
+    text-align: center;
+    font-family: Georgia,sans-serif;
+    margin-top: 0;
+    padding: 5px;
+    background-color: #FFFF00;
+}
+
+#beef {
+    text-align: center;
+    font-family: Georgia,sans-serif;
+    margin-top: 0;
+    padding: 5px;
+    background-color: #FF1439;
+}
+
+#sushi {
+    text-align: center;
+    font-family: Georgia,sans-serif;
+    margin-top: 0;
+    background-color: #6495ED;
+    padding: 5px;
+}
+
+/** END HOME PAGE **/
